@@ -27,7 +27,12 @@ Me gusta el diseño de sistemas desde cero que no pueden ser cubiertos con los s
   - API REST
   - Docker
   - CI/CD
-
+    
+- ** Experiencia varia:**
+  - Scrapping
+  - Importación, Exportación
+  - Gestores administrativos, academicos, contenidos, pagos, documentos.
+    
 ## 🌱 Lo que estoy aprendiendo
 
 Actualmente, estoy explorando el uso de **Docker** para contenedorización de aplicaciones y mejorando mis habilidades en **DevOps**.
@@ -41,9 +46,10 @@ Actualmente, estoy explorando el uso de **Docker** para contenedorización de ap
 1. **[sii.santander.edu.mx](https://sii.santander.edu.mx)**: Sistema de Información Integral desarrollado para la gestión universitaria.
 2. **[desk.santander.edu.mx](https://desk.santander.edu.mx)**: Plataforma de gestión y soporte interno.
 3. **[ecm.e-dav.net](https://ecm.e-dav.net)**: Sistema de gestión documental electrónico.
-4. **[sii.fortin.gob.mx/](https://www.fortin.gob.mx/)**: Sistema de atención ciudadana. (No esta disponible).
-5. **[sii.coatepec.gob.mx/](https://www.coatepec.gob.mx/)**: Sistema de atención ciudadana. (No esta disponible).
-6. **[sii.shirushi.mx/](https://www.shirushi.mx/)**: Sistema de atención de control interno (No disponible)
+4. **OrenoSender**: Software de mensajería masiva nacional.
+5. **[sii.fortin.gob.mx/](https://www.fortin.gob.mx/)**: Sistema de atención ciudadana. (No esta disponible).
+6. **[sii.coatepec.gob.mx/](https://www.coatepec.gob.mx/)**: Sistema de atención ciudadana. (No esta disponible).
+7. **[sii.shirushi.mx/](https://www.shirushi.mx/)**: Sistema de atención de control interno (No disponible)
 
 ---
 
