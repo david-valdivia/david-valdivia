@@ -12,6 +12,7 @@ Me gusta el diseño de sistemas desde cero que no pueden ser cubiertos con los s
   - JavaScript (Vanilla, JQuery)
   - HTML/CSS (Sass, Bootstrap)
   - SQL (MySQL, PostgreSQL)
+  - JAVA; ASP.NET; PYTHON; TS; C++; C;
 
 - **Frameworks:**
   - Laravel
