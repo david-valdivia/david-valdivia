@@ -32,6 +32,8 @@ Me gusta el diseño de sistemas desde cero que no pueden ser cubiertos con los s
   - Scrapping
   - Importación, Exportación
   - Gestores administrativos, academicos, contenidos, pagos, documentos.
+  - CQRS, EventSourcing, Throttling, Cache.
+  - Optimización, refactorización de código.
     
 ## 🌱 Lo que estoy aprendiendo
 
