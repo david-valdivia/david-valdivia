@@ -1,0 +1,311 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+      body {
+        margin: 0; /* Elimina el margen por defecto del body */
+        padding: 0; /* Elimina el padding por defecto del body */
+       }
+  
+	* {
+    	box-sizing: border-box;
+    }
+  
+	  h1 {
+        font-size: 20px; 
+        margin: 0; /* Elimina márgenes del párrafo */
+        padding: 0; /* Elimina cualquier padding */
+        font-family: Raleway, sans-serif;  
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin: 0; /* Elimina márgenes del párrafo */
+        padding: 0; /* Elimina cualquier padding */
+        font-family: Raleway, sans-serif;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 13px;
+        font-family: Raleway, sans-serif;
+        font-weight: 400;
+        margin: 0; /* Elimina márgenes del párrafo */
+        padding: 0; /* Elimina cualquier padding */
+    }
+  
+    p {
+        margin: 0; /* Elimina márgenes del párrafo */
+        padding: 0; /* Elimina cualquier padding */
+        font-size: 11px;
+        font-family: Raleway, sans-serif;
+        font-weight: regular;
+      letter-spacing: 2%;
+    }
+  
+	  .container {
+    	  display:flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        position:relative;
+        border: 1px solid black;
+        background-color: #F2F2F2;
+	  }
+    
+    .head {
+    	  position: relative;
+        /*background-color: grey;*/
+        height: 217px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cover {
+    	  position: absolute;
+        background-color: orange;
+        top: 0px;
+		    height: 161px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .profile-pictures {
+    	  position: absolute;
+        bottom: 0px;
+        height: 130px;
+        width: 375px;
+        /*border: 1px solid yellow; */
+     }
+  
+      
+    .picture {
+        position: absolute;
+        height: 100%;
+        width: 130px;
+        border-radius: 50%;
+    }
+  
+    .picture1{
+      background-color: blue;
+      left: 19%;
+      z-index: 1;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 8px 0px 8px rgba(0, 0, 0, 0.1); /* Sombra añadida */
+    }
+  
+    .picture2{
+      background-color: red;
+      right: 19%;
+      background-size: cover;
+      background-position: center;
+    }
+  
+     .info {
+       display:flex;
+       flex-direction:column;
+       /*background-color: #c4eee1;*/
+        padding: 29px;
+        text-align: center;
+        gap: 23px;
+        max-width: 561px;
+        margin: auto;
+     }
+     
+    .presentacion{
+        display:flex;
+        flex-direction:column;
+        gap: 6px;
+      
+    }
+
+    .buttons{ 
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        padding: 0 23px 0 23px;
+        justify-content: center;
+        gap: 21px 10px;
+        max-width: 700px;
+        margin: auto;
+        }
+  
+     
+     .card {
+     	 display:flex;
+       gap: 10px;
+       /*background-color: white;*/
+       flex-direction:column;
+       align-items: center;
+       text-decoration: none; /* Para quitar el subrayado */
+       color: black; /* Cambia el color del texto a negro */
+       /*gap: 13px;*/
+       /*border: 1px solid black;*/
+       min-width:100px;
+       max-width:130px;
+     }
+  
+    .imgcard {
+       width: 90px;
+       height: 90px;
+       padding: 14px;
+       background: #9FA79F;
+       border-radius: 12%;
+       /*padding-bottom: 10px,*/
+    }
+    
+    .linked {
+        padding: 18px; /* Padding específico para la tarjeta de LinkedIn */
+    }
+  
+  .image2{
+       /*background-color: blue;*/
+       background-size: contain;
+      background-repeat: no-repeat;
+       background-position: center;
+       width: 100%; 
+       height: 100%; 
+}
+    
+    .textcard {
+      /*background-color: yellow;*/
+      padding: 3px;
+      text-align: center;
+    }
+     
+    .contact{
+      /*background-color: grey;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 37px 69px 37px 69px;
+      
+    }
+    
+    .button{
+      border-radius: 50px;
+      text-align: center;
+      background-color:#717171;
+      text-decoration: none; /* Quitar subrayado */
+      color: white;
+      width: 237px;
+      padding:16px;
+    }
+  
+    .button p{
+      font-size: 14px;
+      font-weight: 500;
+    } 
+  
+</style>
+</head>
+<body>
+
+	<div class="container">
+        	<div class="head">
+               		<div class="cover" style="background-image: url(https://img.freepik.com/foto-gratis/fondo-gris-pintado-textura-metal_125540-779.jpg?t=st=1728458502~exp=1728462102~hmac=2009374cb05b56d07dfebe276af1144e174ef3d17f4defe222aadaacd7ab49d4&w=1800);">  
+                  </div>
+            
+                	<div class="profile-pictures">
+                           <div class="picture picture1" style="background-image: url(https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg);">  </div>
+                           <div class="picture picture2" style="background-image: url(https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg);">  </div>
+                	</div>
+            </div>
+                
+            <div class="info">
+              <div class="presentacion">
+                    <h1 style="padding: 0 52px 0 52px;"> Nombre(s) Apellido Apellido </h1>
+                    <h2> Cargo en la empresa </h2>
+                    <h3> Aquí va el nombre del corporativo </h3>
+              </div>
+              <div> <p> Semblanza Lorem ipsumLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea. </p></div>
+            </div> 
+    
+       
+      <div class="buttons">      
+                <a href="tel:+522721568715" target="_blank" class="card">
+                   <div class="imgcard">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACYbUyTRw9-gUmklKJy3hJzozkDt9dONMAsPv6oNgQaw5B7yPD2JfsYHYvDK1PO-wJMAxkD92zKyouxkT5ZxXi5EMl9qgSJosy2J2qE89kXMfUtVD1apOhWVWIKYK31s5QXKRukuz7ZAGBVRz19K8OLIYMYUIxpVF9fy6kY-YshlWsHDDgAUwp1xgxDRBFq7HrKrglLwTh9KsfNomTwVwAK7Rj4_TqcqaFQahv_DVgtmH23oIzUVo5yekoBpHTrrgPIve7pRnUN5DuR0dEQtVLI2gLNczx2__6_dwiLLP6FkyBmBGJQvZ0Dq3Z3DffrsYaE/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>Contacto<h3></div> 
+              </a>
+                     
+                <a href="https://wa.me/522721618715" target="_blank" class="card">
+                   <div class="imgcard">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACbRAnT6BdKxY6k5JnOutrXx2gOiEcwdKY8sxpFkjH6A3RAi8CwLI4-cZoMOvCkJ8NMKyRxALxohiFyS5rGNh6tJKByiGI5KhF5rZ-RQ0QeHccQxiXAUbIWJVYbIz5We3qOw9AVHn33fF6a99uf0cm7N6QiYDjs0k_tYpjWnIRxzuRKGAjJ3YEjSzk0Ou9ORs9CDfPCoisuZNtqBSpsPAwmn-z7wOwEYHCimhJPDyaY9KF35NtRS4CVHxy5E2D8x8ZXEQ2feMvIJJLs-tvKlUZlKDAgMKBEXc-Lja31ZS8DLkXVBPxIJyNrbQtEMoLFceOA/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>Whatsapp<h3></div> 
+              </a>
+                     
+              <a href="mailto:andreafujoshi@gmail.com" target="_blank" class="card">
+                   <div class="imgcard">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACYjbyZv-nEE-BONcJAuKeZAUM4o10A0rikzS4-faEKsRDU4H2y7ve8RuiSOHm34OKszEOmogj4jiHMpk923MRBf41Moc1WjWQNCQOvABbQ_I5Q5g80IOCNJDTobegZwBQujGIqnhYgxYifr8wA5SqD4BghfY0YN6TntGZo0jVQgXKHvk_z39UsFixrM2-edTxCOm6snL5_ybAngRNEvhFOswTFFbSwusJ_Hk-XCVraltDfpSzJ2_fI4gIAokclVG6WMBPr5ztORZCGlAq4NYRP7sMnYaBdWhNhM-yyS4xCq7hShWtgZBMsEsBig6N15Zt8/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>E-mail<h3></div> 
+              </a>   
+              
+            
+                <a href="URL3" target="_blank" class="card">
+                   <div class="imgcard">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACbB1eoMFRm_PX6OugUK2EQd6ULT1wuUttIyoEGMm5F-w7AgX2H-yYWifOGNBq1NXRePVyqTMC-t5gOs_EDveCnMFUhEWpjOBacPWFCfxGEHpItdkAwenoL-1l54qosJ_GJxEZgal9hN-UT-kV3NLLVYd3wm6qJemyMxt-ITPjAtlH9sTzgdz3jmGERfALa3RX7z0hf7g47DasQzPbnxgo6PSo7ciNifoGPAcLCLGgR0sVdOqyC1mebrBF4awTzBLHDaoS0TSUps1FFZLBAuOJcVNuOYkRM_ldynFZTJ1RrcVZB3LgtkHabaqh1DvOPDH3s/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>Instagram<h3></div> 
+              </a>
+                     
+                <a href="URL3" target="_blank" class="card">
+                   <div class="imgcard">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACaDMYEuGvL1q7HLh3tBrfau084658RZPb-d-V3X6eDlYEytRc9w7vZeYpk2V3cbxoCsJh58PKB6eswZh0TprXp7-iDBOVcEFj5Mi09t3w-DbqldH_JZsNl9kifQsLVjitqsngWYAldjDW5DfciIM8BGxDtAg0LCAr73pB2pGyDiWqIma4OZI6SPQgryVIqv4hkgWShqbEunAccm4gdMhdP_iKoATDyLt5PYSU6TJNQ7U9nLZ7bTpTltN_ltZSDG4XlKjTs4YaJnghzZaq8_3fiCUqzerZwldex5MuWSr91yS8pEUx94D1cmt4BJ0fIwYts/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>Facebook<h3></div> 
+              </a>
+                     
+              <a href="URL3" target="_blank" class="card">
+                   <div class="imgcard linked">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACa_ok4qcxNFHV_YugPM8LNRVQSLsZA7SzjvWjWZrIAAwHu1Uwj4YcCgFRNP-DcudqlP8fFNRaE4y0G-lYeXnzePJL-1mmIpwRDAvbDxGCdZMXN552Jf3cfvg4DRG92MH3S1BudQEB4X9EqGIYkDQ2kyEoX848EFrBtKF8h6FGPuVEsrxfd-x-e-QqtqoNwLqn-fL8k9T0-r-rv4nn72y-oRg32BnQYjkxQ5c5ZgA6OKkQIlny8uEILodAyg5HaEtSK1R92ISXrCksWDIqgXLu6wdH-K9mdQ91HjXZ7SBqNY9GtE3gy_Ydyoc6eifRwSYsU/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>Linkedin<h3></div> 
+              </a>   
+                
+            
+                <a href="URL3" target="_blank" class="card">
+                   <div class="imgcard">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACYPmendJw8TqfIKivlX4FI7n1btPOuwJLYYnx09vRbWEKj3fiW0l2ONY-M1jkpcpu5MVVA3wstVhvnbB1aOFiPsMUcDct3sxOxYL6a26wFeDkAm5pfxaXw_3jI2PIy-VCVu8evkLXimNm0JXskdck_r2Xkxy-SmNeF8d3XmUS_2G6pCkVM9JZBEXqhwyUdz0o5IY0xJsC_zdTxOMAIa_M_J_CuQHYOWxjWVg5Yy_KlvHzNnOEMgQ-MwSdftkPy6Aoe60p4fj8ZUKTchKydKxGVSb7i5dyke7TBfwqar4Sp5LxcC_6NATyHMO7ismkHreWU/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>Tiktok<h3></div> 
+              </a>
+                     
+                <a href="URL3" target="_blank" class="card">
+                   <div class="imgcard">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACaWiiry34jzMIdi1IdtW3177nac-1RGey_fIGkTAKNe5InRrZEAq707MW90leJjux_D6SRFULu-yP9AIEj7nrpcfkkUOAbQwBXHmB91ycNn9KmK4osE8V8ZZOPR9a5KuQVQmzbHn8_fYJ2q0X9-CYkrnDa3PQeIXVSvRGVUKb5COM7vLphhxJJWJlZe5fIXmY0kjKMfVTuK57yxH6traJgPPv6i5JDIymGAn9N4NErQg4GbicWwyzCv29uI_1atVnKVcj5sqy-_496HcIYkyp6wrsUoFYE9nDLjfF8BpFFaGSMrmTtKLS-9hnulg7Scptk/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>X<h3></div> 
+              </a>
+                     
+              <a href="ruta/del/archivo/archivo.pdf" download="archivo.pdf" class="card">
+                   <div class="imgcard">
+                      <div class="image2" style="background-image: url(https://previews.dropbox.com/p/thumb/ACb0tNsDnrXGxXIlE7M3PaKwOZbQy2ksNtn0oxsxpR3dENZxPJwq088YLyDNea47VIfSFGBoDRBJLAj3Zy4OlyWOQusPWOpWT-RzWHKEtx_oCNDP72ANsxnsFaTUQO6kpxQDXD9LzZvVEzDSJj3kayCRhwrQIx3SGrnc8kftXJSgupQ_1vsXSnj2AqGLe1WBEIHCZEDfv488ZqmmFYRvXB-LQlGO_XroDyYgRl9_IR5loPuWaEpaTZqe-fh_f5UaGh2Uhh7sbDh9yLSIFUd53-UdVCKicBFBFGB1-7zZxMsFEXvnSLzBdkcLXLHn-_FGPKk/p.png);"> </div>  
+                   </div> 
+                   <div class="textcard"> <h3>Descargar CV<h3></div> 
+              </a>   
+
+        
+         </div>
+                   
+         <div class="contact">
+                <a href="ruta/del/archivo/contacto.vcf" download="contacto.vcf" class="button"> <p>Guardar contacto </p> </a>  
+         </div> 
+                   
+       </div>
+    
+    
+    
+	</div>
+        
+</body>
+</html>
