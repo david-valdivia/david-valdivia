@@ -46,14 +46,15 @@ Actualmente, estoy explorando el uso de **Docker** para contenedorización de ap
 
 ## 💡 Proyectos Destacados
 
-1. **[sii.santander.edu.mx](https://sii.santander.edu.mx)**: Sistema de Información Integral desarrollado para la gestión universitaria.
-2. **[desk.santander.edu.mx](https://desk.santander.edu.mx)**: Plataforma de gestión y soporte interno.
-3. **[ecm.e-dav.net](https://ecm.e-dav.net)**: Sistema de gestión documental electrónico.
-4. **OrenoSender**: Software de mensajería masiva nacional.
-5. **[sii.fortin.gob.mx/](https://www.fortin.gob.mx/)**: Sistema de atención ciudadana. (No esta disponible).
-6. **[sii.coatepec.gob.mx/](https://www.coatepec.gob.mx/)**: Sistema de atención ciudadana. (No esta disponible).
-7. **[sii.shirushi.mx/](https://www.shirushi.mx/)**: Sistema de atención de control interno (No disponible)
-8. **WAPI**: Whatsapp Api Chat, Canal para Whatsapp, chat, bot, flujos, etc. (Privado)
+1. **[paisaseguro.com](https://poliza360.paisaseguro.com)**: Sistema de gestión administrativa, financiera, clientes, productos, etc para seguros, incluye plataforma para cliente.
+2. **[sii.santander.edu.mx](https://sii.santander.edu.mx)**: Sistema de Información Integral desarrollado para la gestión universitaria.
+3. **[desk.santander.edu.mx](https://desk.santander.edu.mx)**: Plataforma de gestión y soporte interno.
+4. **[ecm.e-dav.net](https://ecm.e-dav.net)**: Sistema de gestión documental electrónico.
+5. **OrenoSender**: Software de mensajería masiva nacional.
+6. **[sii.fortin.gob.mx/](https://www.fortin.gob.mx/)**: Sistema de atención ciudadana. (No esta disponible).
+7. **[sii.coatepec.gob.mx/](https://www.coatepec.gob.mx/)**: Sistema de atención ciudadana. (No esta disponible).
+8. **[sii.shirushi.mx/](https://www.shirushi.mx/)**: Sistema de atención de control interno (No disponible)
+9. **WAPI**: Whatsapp Api Chat, Canal para Whatsapp, chat, bot, flujos, etc. (Privado)
 ---
 
 ✨ ¡Gracias por visitar mi perfil!
