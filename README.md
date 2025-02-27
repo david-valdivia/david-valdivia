@@ -21,7 +21,7 @@ Me gusta el diseño de sistemas desde cero que no pueden ser cubiertos con los s
   - Composer
   - Git/GitHub
   - Node.js/NPM
-  - Blade (Motor de plantillas de Laravel)
+  - Blade (Motor de plantillas de Laravel), Octane
   - AWS (Lightsail, RDS, SES, IAM, Lambda, AS3, CloudFront, DynamoDB, etc).
 
 - **Otras tecnologías:**
