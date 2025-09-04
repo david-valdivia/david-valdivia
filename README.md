@@ -4,4 +4,5 @@ Me gusta el diseño de sistemas desde cero que no pueden ser cubiertos con los s
 
 Actualmente, estoy tratando de mejorar mi inglés técnico y hablado.
 
-contacto@dvaldivia.com
+![](https://raw.githubusercontent.com/david-valdivia/github-stats/master/generated/overview.svg)
+![](https://raw.githubusercontent.com/david-valdivia/github-stats/master/generated/languages.svg)
